@@ -1,6 +1,6 @@
-DIA_OUTER_RING =  65.5;
-DIA_INNER_RING = DIA_OUTER_RING -2*4.25;
-HEIGHT_RING = 3.0;
+DIA_OUTER_RING =  66.5;
+DIA_INNER_RING = DIA_OUTER_RING -2*4.0;
+HEIGHT_RING = 2.25;
 
 difference(){
 	linear_extrude(height = HEIGHT_RING, center = true){
